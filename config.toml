@@ -7,14 +7,14 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [Twitch]
 apkmirror-dlurl = "https://apkmirror.com/apk/twitch-interactive-inc/twitch/"
-build-mode = "module"
+build-mode = "apk"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-build-mode = "module"
+build-mode = "apk"
 
 [TikTok]
 apkmirror-dlurl = "https://apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 included-patches = "'SIM spoof'"
 excluded-patches = "'Playback speed'"
-build-mode = "module"
+build-mode = "apk"
